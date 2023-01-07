@@ -15,6 +15,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      
+      - name: node js install
+        run: npm install
 
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
