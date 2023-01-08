@@ -20,6 +20,9 @@ jobs:
         uses: actions/setup-node@v3.6.0
         with:
           node-version: 16.19.0
+          
+      - name: Deploy React to GitHub Pages
+        uses: bitovi/github-actions-react-to-ghp@v1.2.0     
 
 
       - name: Set up .NET Core
